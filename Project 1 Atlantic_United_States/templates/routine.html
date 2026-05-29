@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routine Tracker</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="night-mode">
+    <div class="dashboard-container">
+        
+        <aside class="sidebar">
+            <h2>LifeManager</h2>
+            <nav>
+                <ul>
+                    <li><a href="/">🎵 Music Trends</a></li>
+                    <li><a href="/routine" class="active">🔁 Routine Tracker</a></li>
+                    <li><a href="/expenses">💳 Expenses</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle-section">
+                <button id="themeToggleBtn">☀️ Toggle Theme</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Routine Tracker</h1>
+                <p>Monitor your daily habits and schedules</p>
+            </header>
+
+            <section class="chart-grid">
+                <div class="chart-card">
+                    <h3>My Daily Routines</h3>
+                    <img src="/static/css/chart_routine.png" alt="Routine Tracking Chart" style="width:100%; border-radius:6px;">
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

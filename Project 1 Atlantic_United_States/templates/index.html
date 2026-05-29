@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeManager Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="night-mode"> 
+
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <h2>LifeManager</h2>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">🎵 Music Trends</a></li>
+                    <li><a href="/routine">🔁 Routine Tracker</a></li>
+                    <li><a href="/expenses">💳 Expenses</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle-section">
+                <button id="themeToggleBtn">☀️ Toggle Theme</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Song Popularity Trend Analysis</h1>
+                <p>Real-time insights from United States chart data</p>
+            </header>
+
+            <section class="chart-grid">
+                <div class="chart-card">
+                    <h3>Top 10 Charting Artists</h3>
+                    <img src="/static/css/chart_artists.png" alt="Top Artists Chart" style="width:100%; border-radius:6px;">
+                </div>
+                <div class="chart-card">
+                    <h3>Monthly Popularity Trend</h3>
+                    <img src="/static/css/chart_trend.png" alt="Monthly Trend Chart" style="width:100%; border-radius:6px;">
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>
