@@ -1,7 +1,7 @@
 # LifeManager Analytics Dashboard 🎵 🔁 💳
 
 A responsive, full-stack personal management and analytics web application. This project features an end-to-end data engineering pipeline that pulls relational chart data from a local Microsoft SQL Server database, transforms and aggregates it via a Jupyter Notebook processing layer, and feeds live visualization assets into an interactive Flask-driven web front-end.
-
+ 
 ## Application Core Views
 The web application is fully modularized and responsive across three target interfaces:
 1. **🎵 Music Trends Panel (Data Blue Theme):** Displays real-time chart frequency insights and popularity tracking derived from an active database connection holding over 27,000 corporate streaming records.
