@@ -15,27 +15,3 @@ The web application is fully modularized and responsive across three target inte
 * **Cohesive Aesthetic Identity Coding:** Designed dedicated chromatic styles (Teal, Purple, Blue) across charts and templates to group visual analytics contextually by business application.
 * **High-Contrast Fluid Theme Inverter:** Configured a custom **Vanilla JavaScript DOM-manipulation engine** that handles seamless global UI switching between a crisp Light Mode canvas and an elegant dark-theme Night Mode workspace instantly.
 * **Full-Stack Backend Routing:** Utilized the **Flask web framework** to build a reliable backend routing mechanism (`/`, `/routine`, `/expenses`), eliminating cache vulnerabilities and enabling continuous structural hot-reloading.
-
-
-## Project Architecture Layout
-Atlantic_United_States_Dashboard/
-│
-├── app.py                      # Core Python Flask Web Server & Routing Engine
-├── app.ipynb                   # Jupyter Notebook Analytics Pipeline & ETL Processor
-├── .gitignore                  # Explicit Git Cache Exclusion Manifest
-├── README.md                   # Technical Project Documentation
-│
-├── static/                     # Global Front-End Asset Manifest
-│   ├── css/
-│   │   ├── style.css           # Custom UI Stylesheet & Fluid Layout Framework
-│   │   ├── chart_artists.png   # Auto-Generated Top 10 Charting Artists Plot
-│   │   ├── chart_trend.png     # Auto-Generated Monthly Popularity Line Plot
-│   │   ├── chart_routine.png   # Auto-Generated Purple Habit Consistency Graph
-│   │   └── chart_expenses.png  # Auto-Generated Teal Project Ledger Graph
-│   └── js/
-│       └── dashboard.js        # Global Theme Toggling JavaScript Script Hooks
-│
-└── templates/                  # Modular Jinja2 HTML Front-End Templates
-    ├── index.html              # Main Dashboard Home (Music Trends Workspace)
-    ├── routine.html            # Routine Tracker Habit Interface Canvas
-    └── expenses.html           # Expense Management Ledger Grid Card Layout
