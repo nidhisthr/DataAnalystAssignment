@@ -19,9 +19,9 @@ The web application is fully modularized and responsive across three target inte
 
 ## Project Architecture Layout
 Atlantic_United_States_Dashboard/
-│
-├── app.py                      # Core Python Flask Web Server & Routing Engine
-├── app.ipynb                   # Jupyter Notebook Analytics Pipeline & ETL Processor
+*│
+*├── app.py                      # Core Python Flask Web Server & Routing Engine
+*├── app.ipynb                   # Jupyter Notebook Analytics Pipeline & ETL Processor
 ├── .gitignore                  # Explicit Git Cache Exclusion Manifest
 ├── README.md                   # Technical Project Documentation
 │
